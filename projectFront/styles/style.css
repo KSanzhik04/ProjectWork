@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Roboto", serif;
+    font-weight: 400px;
+    background-color: #4F4F4F;
+}
+
+.wrapper {
+    background-color: #373A3C;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+/* Шапка сайта*/
+header {
+    background-color: #373A3C;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+header nav {
+    float: right;
+    width: 30%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+nav ul li img {
+    width: 18px;
+    height: auto;
+    vertical-align: middle;
+}
+
+header nav ul li a {
+    color: #FFFFFF80;
+}
+header nav ul li a.active {
+    color: white;
+}
+
+/* 1 страница */ 
+
+.hero img{
+    background-size: cover;
+    width: 100%;
+}
+
+.StarWars {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-30%, -70%);
+    color: white;
+    font-size: 36px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.Watch-Trailer {
+    background: #8DD83D;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    border: 0;
+    transition: all 500ms ease;
+}
+
+.Watch-Trailer:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.Explore-Games {
+    background: #828282;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    border: 0;
+    transition: all 500ms ease;
+}
+
+.Explore-Games:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/* 2 страница*/
+.icon img{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 680px;
+}
+
+.value-text {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.shop{
+    padding-top: 10px;
+    padding-bottom: 250px;
+}
+
+.shop .section{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.block{
+    width: 318.5px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 3px;
+    border: 1px solid #8DD83D ;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+.block h4 {
+    color: #435766;
+    font-size: 18px;
+    font-weight: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.block p {
+    color: #435766;
+    font-size: 24px;
+    font-weight: 255px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    padding: 15px 0;
+    border-radius: 5px;
+    background: #8DD83D;
+    color: #fff;
+    font-size: 16px;
+    transition: all 500ms ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/*  3 страница*/
+
+.Xbox-Design-Lab{
+    padding: 300px 0;
+    background-image: url(/images/XboxDesignLab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.design--info {
+    color: #fff;
+}
+.topic{
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+.text{
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+.uDesign {
+    background: #828282;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    border: 0;
+    transition: transform 300ms ease, background-color 300ms ease;
+    display: inline-block;
+}
+
+.uDesign:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.btnlab{
+    background: #8DD83D;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    border: 0;
+    transition: all 500ms ease;
+    display: inline-block;
+}
+.btnlab:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* подвал страница*/
+
+.footer{
+    background-color: #373A3C;
+    padding: 120px 0;
+}
+
+.footer_nav{
+    display: flex;
+    justify-content: space-between;    
+}
+.nav_title{
+    color: #7DD42F;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+}
+
+.follow {
+    color: #7DD42F;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+}
+
+.title_list_XBOX ul li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.title_list_Developers ul li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.footer_socials_icons {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+hr{
+    color: #4F4F4F;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+
+.line {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 250px;
+    padding-left: 300px;
+}
