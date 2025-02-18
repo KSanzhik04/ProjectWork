@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <header class="user_info">
+        <h5>USER INFO</h5>
+    </header>
+    <main class="create_info">
+        <form action="/" method="post">
+            <h5>PERSONAL INFO</h5>
+            <div class="personal_info">
+                <div class="title">
+                    <p>Title <b>*</b></p>
+                    <div class="radio-group">
+                        <input type="radio" name="title" id="mr"><label for="mr">Mr</label>
+                        <input type="radio" name="title" id="mrs"><label for="mrs">Mrs</label>
+                        <input type="radio" name="title" id="div"><label for="div">Div</label>
+                    </div>
+                </div>
+                <div class="name">
+                    <p>First name <b>*</b></p>
+                    <input type="text" name="first_name" placeholder="Enter first name">
+                </div>
+                <div class="surname">
+                    <p>Last name <b>*</b></p>
+                    <input type="text" name="last_name" placeholder="Enter last name">
+                </div>
+            </div>
+            <h5>LOCATION</h5>
+            <div class="location">
+                <div class="street">
+                    <p>Street <b>*</b></p>
+                    <input type="text" name="street" placeholder="Enter street">
+                </div>
+                <div class="building">
+                    <p>Building <b>*</b></p>
+                    <input type="text" name="building" placeholder="#">
+                </div>
+                <div class="apartment">
+                    <p>Apartment <b>*</b></p>
+                    <input type="text" name="apartment" placeholder="#">
+                </div>
+            </div>
+            <h5>CONTACTS</h5>
+            <div class="contacts">
+                <div class="mobile">
+                    <p>Mobile <b>*</b></p>
+                    <input type="tel" name="mobile" placeholder="+XX XX XX XX XXX">
+                </div>
+                <div class="email">
+                    <p>Email <b>*</b></p>
+                    <input type="email" name="email" placeholder="Enter email address">
+                </div>
+                <div class="tel">
+                    <p>Tel</p>
+                    <input type="tel" name="tel" placeholder="XXXX XX XX XX">
+                </div>
+                <div class="fax">
+                    <p>Fax</p>
+                    <input type="tel" name="fax" placeholder="XXXX XX XX XX">
+                </div>
+            </div>
+            <h5>CREDENTIALS SETTING</h5>
+            <div class="credentials_setting">
+                <div class="password">
+                    <p>Enter password <b>*</b></p>
+                    <input type="password" name="password" placeholder="New password">
+                </div>
+                <div class="confirm_password">
+                    <p>Confirm password <b>*</b></p>
+                    <input type="password" name="confirm_password" placeholder="Confirm new password">
+                </div>
+                <div class="login">
+                    <p>Add login <b>*</b></p>
+                    <input type="text" name="login" placeholder="Create login">
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="create">CREATE</button>
+                <button type="reset" class="cancel">CANCEL</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

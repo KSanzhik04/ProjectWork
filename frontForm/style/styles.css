@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+b {
+    color: red;
+}
+
+header {
+    background-color: #195ABB;
+    padding: 20px 0;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+header h5 {
+    color: #fff;
+    font-size: medium;
+}
+p {
+    color: #4E4E4E;
+}
+form {
+    background: #F8F9FF;
+    padding: 20px;
+    max-width: 2100px;
+    margin: auto;
+}
+
+h5 {
+    margin-bottom: 10px;
+    color: #221A44;
+}
+
+input {
+    background-color: #F8F9FF;
+    border-radius: 20px;
+    border: 1px solid #D6D5D5;
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.personal_info,
+.location,
+.contacts,
+.credentials_setting {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    border: 1px solid #195ABB ; 
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 500ms ease;
+}
+
+.create {
+    background-color: #195ABB;
+    color: white;
+}
+
+.cancel {
+    background-color: #F8F9FF;
+    margin-left: 5px;
+}
+
+.create:hover {
+    transform: scale(1.1);
+}
+.cancel :hover {
+    transform: scale(1.1);
+}
